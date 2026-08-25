@@ -1,0 +1,35 @@
+{
+  "name": "genpark-autonomous-fullstack-app-scaffolder-provisioner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous fullstack app scaffolder provisioning databases, backend APIs, and frontend client views from natural language.",
+  "author": "genpark",
+  "category": "app-builder",
+  "tags": [
+    "app-scaffolder",
+    "replit-agent",
+    "autonomous-builder",
+    "fullstack-generator",
+    "database-provisioner"
+  ],
+  "inputs": {
+    "natural_language_app_prompt": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "deployment_job_id": {
+      "type": "string"
+    },
+    "app_title": {
+      "type": "string"
+    },
+    "database_schema_migrated": {
+      "type": "string"
+    },
+    "live_production_https_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
